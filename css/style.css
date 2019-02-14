@@ -196,6 +196,18 @@ span.fa.fa-angle-left, span.fa.fa-angle-right {
     height: 650px;
 	
 }
+.image-size {
+    
+    height: 650px !important;
+    overflow: hidden;
+}
+
+.image-size-gallery {
+    
+    height: 300px !important;
+    width: 300px !important;
+    overflow: hidden;
+}
 .carousel-caption p {
     font-size: 18px;
     letter-spacing: 1px;
