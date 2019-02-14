@@ -205,7 +205,7 @@ span.fa.fa-angle-left, span.fa.fa-angle-right {
 .image-size-gallery {
     
     height: 300px !important;
-    width: 300px !important;
+    /* width: 300px !important; */
     overflow: hidden;
 }
 .carousel-caption p {
@@ -396,7 +396,7 @@ div#gallery {
 	text-align: center;
 } 
 .w3ls-hover .view-caption { 
-    padding: 2.5em 0;
+    padding: 0 0 !important;
     position: absolute;
     left: 0;
     top: 50%;
