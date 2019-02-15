@@ -80,7 +80,7 @@ a:focus, a:hover {
 	-ms-flex-pack: space-between;
 }
 .nav-top a:hover {
-    color: yellow;
+    color: #9f6934;
 }
 .w3-contact a {
     padding: 0px 10px;
@@ -132,7 +132,7 @@ a:focus, a:hover {
 	margin-left: 8px;
 }
 .logo-wrap a:hover {
-    color: #FFEB3B;
+    color: #9f6934;
     -webkit-transition: 0.5s all;
 }
 .nav-wrap {
@@ -146,11 +146,11 @@ a:focus, a:hover {
 }
 ul.nav li a:hover {
     	background-color: transparent;
-    color: rgb(255, 255, 0);
+    color: #9f6934;
 }
 ul.nav li.active a {
 	background-color: transparent;
-    color: rgb(255, 255, 0);
+    color: #9f6934;
 }
 .navbar-nav>li>a {
     font-size: 14px;
@@ -167,9 +167,9 @@ ul.nav li.active a {
     padding: 0 50px;
 }
 nav.navbar.w3-navbar {
-    background: rgb(34, 36, 38);
+    background: #333333;
     margin: 0;
-	    border-radius: 0;
+    border-radius: 0;
 }
 
 span.fa.fa-angle-left, span.fa.fa-angle-right {
@@ -194,16 +194,16 @@ span.fa.fa-angle-left, span.fa.fa-angle-right {
 }
 .carousel-inner {
     height: 650px;
-	
+
 }
 .image-size {
-    
+
     height: 650px !important;
     overflow: hidden;
 }
 
 .image-size-gallery {
-    
+
     height: 300px !important;
     /* width: 300px !important; */
     overflow: hidden;
@@ -236,16 +236,16 @@ div#myCarousel {
 		height: 650px;
 }
 span.b-head {
-    color: #E91E63;
+    color: #9f6934;
 }
 span.b-head:hover {
-    border-bottom: 2px solid #23d6c5;
+    border-bottom: 2px solid #346a9f;
 }
 /* Banner */
 /* About */
 div#about {
     padding: 5% 0px;
-	background: #00BCD4;
+	background: #346a9f;
     color: #fff;
 }
 
@@ -259,7 +259,7 @@ h3.center {
 	    letter-spacing: 2px;
 }
 h3.center:after {
-    border-top: 2px solid #FF5722;
+    border-top: 2px solid #1c3955;
     display: block;
     width: 100px;
     content: "";
@@ -282,7 +282,7 @@ h3.center:after {
 	  -ms-flex: 1;
 }
 .about1 {
-    padding-right: 15px;
+    padding-right: 25px;
 }
 .about1 h4 {
     font-size: 35px;
@@ -290,7 +290,7 @@ h3.center:after {
     margin-bottom: 20px;
 }
 .about1 p {
-    color: #332823;
+    color: #cfdfef;
     font-size: 15px;
 }
 ul.about-list li {
@@ -301,7 +301,7 @@ ul.about-list li span.fa {
 	    height: 80px;
     width: 80px;
     vertical-align: top;
-	color: #e43873;
+	color: #1c3955;
 }
 .in-block {
     display: inline-block;
@@ -319,15 +319,12 @@ ul.about-list li span.fa {
     background: url(../images/about1.jpg) no-repeat;
     background-size: cover;
     background-position: center;
-    /* background-attachment: fixed; */
 }
 /* //About */
 /* services */
 div#service {
     padding: 5% 0px;
     text-align: center;
-	/*    background: rgba(233, 30, 99, 0.88);
-    color: honeydew; */
 }
 .service p.details {
     margin: 25px 0px 45px;
@@ -349,10 +346,10 @@ div#service {
     font-size: 45px;
     width: 80px;
     height: 80px;
-    border: 1px solid #FF5722;
+    border: 1px solid #1c3955;
     border-radius: 50%;
     line-height: 80px;
-	color: #F44336;
+	color: #1c3955;
 }
 .service-list h5 {
     margin: 20px 0px;
@@ -373,10 +370,10 @@ span.fa.fa-university {
 
 
 /* //services */
-/*-- gallery --*/ 
+/*-- gallery --*/
 div#gallery {
     padding: 5% 0px;
-	    background: azure;
+	  background: #cfdfef;
 }
 .gallery {
     text-align: center;
@@ -384,19 +381,20 @@ div#gallery {
 .gallery-grids img {
     width: 100%;
 }
-.gallery-grids { 
+.gallery-grids {
 	padding: 10px;
 }
 /*-- gallery-hover effect --*/
 .w3ls-hover {
 	background-color: #FFF;
-	display: block; 
+	display: block;
 	overflow: hidden;
-	position: relative; 
+	position: relative;
 	text-align: center;
-} 
-.w3ls-hover .view-caption { 
-    padding: 0 0 !important;
+}
+.w3ls-hover .view-caption {
+    padding-top:.5em;
+		padding-bottom:.5em;
     position: absolute;
     left: 0;
     top: 50%;
@@ -408,11 +406,12 @@ div#gallery {
     -moz-transition: all 0.5s;
     -ms-transition: all 0.5s;
     -o-transition: all 0.5s;
-    transition: all 0.5s; 
+    transition: all 0.5s;
 }
 .w3ls-hover .view-caption h5 {
+		padding-top: 15px;
     color: #fff;
-    font-size: 2.2em;
+    font-size: 1.5em;
     font-weight: normal;
 	    text-transform: uppercase;
 }
@@ -432,16 +431,16 @@ div#gallery {
     -moz-transition: all 0.5s;
     -ms-transition: all 0.5s;
     -o-transition: all 0.5s;
-    transition: all 0.5s; 
+    transition: all 0.5s;
 }
-.w3ls-hover:hover .view-caption { 
-	background-color: rgba(0, 167, 189, 0.74); 
+.w3ls-hover:hover .view-caption {
+	background-color: #346a9f;;
 	opacity: 1;
 	width: 100%;
 }
 .w3ls-hover .view-caption span:hover {
-    color: #FFEB3B;
-    border-color: #FFEB3B; 
+    color: #9f6934;
+    border-color: #9f6934;
 }
 /*-- //gallery --*/
 /* testimonials */
@@ -480,7 +479,6 @@ div#testimon {
 h6.review {
     padding-left: 35px;
     margin-bottom: 15px;
-    background: url(../images/quotes.png) no-repeat 0px 0px;
     background-size: 20px;
     line-height: 20px;
 	font-size: 17px;
@@ -493,8 +491,7 @@ p.indent {
 }
 p.usr-name {
     padding-left: 60px;
-    color: #E91E63;
-  /*  font-weight: bold; */
+    color: #346a9f;
     font-size: 18px;
 }
 span.designation {
@@ -543,7 +540,7 @@ ul.input li {
 }
 ul.input input {
     border: none;
-    border-bottom: 1px solid #FFEB3B;
+    border-bottom: 1px solid #9f6934;
     padding: 10px 0px;
     width: 85%;
     letter-spacing: 1px;
@@ -563,7 +560,7 @@ ul.input span.fa {
 }
 .contact-me textarea {
     border: none;
-    border-bottom: 1px solid #FFEB3B;
+    border-bottom: 1px solid #9f6934;
     padding: 10px 0px;
     width: 85%;
     letter-spacing: 1px;
@@ -629,7 +626,7 @@ color: #f9e9d3;
 }
 .footer {
     padding: 30px 0px;
-    background: #009688;
+    background: #9f6934;
     color: white;
 }
 
@@ -643,7 +640,7 @@ color: #f9e9d3;
 	    letter-spacing: 1px;
 }
 .copyright a:hover {
-    color: #f9f903;
+    color: #9f6934;
 }
 /* //contact */
 /*Go to Top*/
@@ -655,7 +652,7 @@ color: #f9e9d3;
 	bottom: 20px;
 	right: 2%;
 	overflow: hidden;
-	z-index: 999; 
+	z-index: 999;
 	width: 40px;
 	height: 40px;
 	border: none;
@@ -761,7 +758,7 @@ div#about p {
 	span.fa.fa-angle-left, span.fa.fa-angle-right {
     top: 44%;
 }
-	
+
 }
 
 @media screen and (max-width: 1366px){}
@@ -834,7 +831,7 @@ div#about p {
     top: 27%;
 	    height: auto;
 	}
-	
+
 }
 
 @media screen and (max-width: 800px){
@@ -1182,6 +1179,12 @@ ul.input input,.contact-me textarea {
 .list {
     flex-direction: column;
     text-indent: 40px;
+}
+
+.flex-control-paging li a.flex-active {
+    background: #346a9f;
+    cursor: default;
+    border: 3px solid #346a9f;
 }
 
 }
