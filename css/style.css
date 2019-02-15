@@ -4,6 +4,21 @@
 	License: Creative Commons Attribution 3.0 Unported
 	License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
+
+@media (max-width:400px) {
+    .carousel {
+        display:none !important;
+    }
+		.logo-container {
+	    width: 70%;
+		}
+		.navbar-toggle{
+			display:none !important;
+		}
+		.footer li{
+			font-size: 10px;
+		}
+}
 /*-- Reset-Code --*/
 
 body {
