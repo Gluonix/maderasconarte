@@ -164,6 +164,7 @@ body:after {
 }
 
 .lb-data .lb-details {
+    display: none;
     width: 90%;
     float: left;
     text-align: left;
