@@ -85,7 +85,8 @@ a:focus, a:hover {
 /* nav top */
 
 .nav-top {
-    display: flex;
+  padding-left: 60%;
+  display: flex;
 	display: -webkit-box;
 	display: -moz-box;
 	display: -ms-flexbox;
@@ -99,10 +100,14 @@ a:focus, a:hover {
 }
 .w3-contact a {
     padding: 0px 10px;
+    color: #1c3854;
 }
 .w3-contact {
-    padding: 10px 0px;
-	    font-size: 14px;
+    justify-content: right;
+    padding-top: 10px;
+    padding-left: 10%;
+	  font-size: 14px;
+    text-align: right;
 }
 .w3-socials {
     display: inline-block;
@@ -168,10 +173,11 @@ ul.nav li.active a {
     color: #9f6934;
 }
 .navbar-nav>li>a {
-    font-size: 14px;
+    font-size: 18px;
     letter-spacing: 2px;
     text-transform: uppercase;
-	    padding: 7px 10px;
+	  padding: 7px 10px;
+    color: #1c3854;
 }
 .navbar-nav {
     margin: 0;
@@ -182,7 +188,7 @@ ul.nav li.active a {
     padding: 0 50px;
 }
 nav.navbar.w3-navbar {
-    background: #333333;
+    background: #cfdfef;
     margin: 0;
     border-radius: 0;
 }
@@ -903,6 +909,9 @@ h3.center {
 .in-block h5 {
     font-size: 18px;
 }
+.w3-contact {
+    display: none;
+}
 
 }
 
@@ -939,8 +948,12 @@ ul.about-list li span.fa {
 .w3ls-hover .view-caption h5 {
     font-size: 22px;
 }
+.w3-contact {
+    display: none;
+}
 
 }
+
 @media screen and (max-width: 667px){
 	.carousel-caption p {
     font-size: 14px;
@@ -965,6 +978,10 @@ div#about .container {
     margin-left: 0;
 }
 
+.w3-contact {
+    display: none;
+}
+
 
 }
 
@@ -972,6 +989,9 @@ div#about .container {
 	.carousel-caption1 {
     right: 8%;
 	}
+  .w3-contact {
+      display: none;
+  }
 }
 
 @media screen and (max-width: 600px){
@@ -979,7 +999,9 @@ div#about .container {
     font-size: 33px;
     margin-bottom: 8px;
 }
-
+.w3-contact {
+    display: none;
+}
 	.list a {
     margin: 12px;
     margin-left: 0;
@@ -1021,8 +1043,13 @@ div#about .container {
 .w3-socials {
     display: none;
 }
+.w3-contact {
+    display: none;
+}
 .nav-top {
-    justify-content: center;
+  display: hidden;
+    /* padding-left: 60%;
+    justify-content: right; */
 }
 h3.center {
     font-size: 26px;
@@ -1122,7 +1149,8 @@ p.indent {
     height: 300px;
 }
 .w3-contact {
-    font-size: 13px;
+    font-size: 12px;
+    padding-left: 15%;
 }
 .w3-contact a {
     padding: 0px 5px;
